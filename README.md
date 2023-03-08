@@ -16,7 +16,7 @@ We target 3 nanoparticles in [this literature](https://www.sciencedirect.com/sci
 
 ## Fitness function
 
-$$ -0.9 * \min (λ_{max} – λ_{max, target}) -0.07*\min(1-intensity) -0.03 * \min FWHM $$
+$$-0.9 * \min (λ_{max} – λ_{max, target}) -0.07*\min(1-intensity) -0.03 * \min FWHM$$
 
 
 ### 1. 513nm
