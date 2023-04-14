@@ -70,7 +70,7 @@ class ASLdiscreteBayesianOptimization(DiscreteBayesianOptimization):
     :param kwargs: --> suggestion = disc_constrained_acq_max(
                     ac=utility_function.utility,
                     instance=self,
-                    **kwargs) 여기로 들어가
+                    **kwargs)
     Sub_Params
         :param prangeDict (dict): dict of 3-tuples for variable min, max, step
         :param verbose=2 (int): verbosity
@@ -110,7 +110,7 @@ class ASLdiscreteBayesianOptimization(DiscreteBayesianOptimization):
         if self.verbose:
             self._prime_subscriptions()
             self.dispatch(Events.OPTMIZATION_START)
-        # 여기 바꿈
+
         self.normPrange=self._getNormalizeList(self.prange)
         DiscreteBayesianOptimization.__init__(self, f=None,
             prange=self.normPrange,
@@ -121,8 +121,6 @@ class ASLdiscreteBayesianOptimization(DiscreteBayesianOptimization):
         self._real_space = DiscreteSpace(target_func=None, prange=self.prange, random_state=self.random_state)
         self._property_space = PropertySpace(pbounds=self.prange, target_condition_dict=self.targetConditionDict)
 
-        # self.samplinglist = self._getSamplingList(algorithm_dict["sampling_method"])
-        
         self.ucb_utility = UtilityFunction(kind='ucb', kappa=self.acquistionFunc_hyperparameter)
         self.ei_utility = UtilityFunction(kind='ei', xi=self.acquistionFunc_hyperparameter)
         self.poi_utility = UtilityFunction(kind='poi')
