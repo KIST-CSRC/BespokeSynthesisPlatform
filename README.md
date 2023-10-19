@@ -32,3 +32,4 @@ Master Node
 ```
 
 ## Reference
+1. Yoo, H. J., Kim, N., Lee, H., Kim, D., Ow, L. T. C., Nam, H., ... & Han, S. S. (2023). Bespoke Nanoparticle Synthesis and Chemical Knowledge Discovery Via Autonomous Experimentations. arXiv preprint arXiv:2309.00349.
