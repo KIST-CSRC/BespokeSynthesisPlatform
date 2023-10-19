@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository recommend optimized synthesis recipe via AI models. All of experiment equipments are controlled by Master Node, and are modularized according to the purpose of platform, such as [BatchSynthesisPlatform](https://github.com/KIST-CSRC/BatchSynthesisPlatform), [UVPlatform](https://github.com/KIST-CSRC/UVPlatform), and others (might be added more platform later). Master Node contains source code of AI models, Logger, etc.
+This repository recommend optimized synthesis recipe via AI models. All of experiment equipments are controlled by Master Node, and are modularized according to the purpose of platform, such as [BatchSynthesisModule](https://github.com/KIST-CSRC/BatchSynthesisModule), [UV-VisModule](https://github.com/KIST-CSRC/UV-VisModule), and others (might be added more platform later). Master Node contains source code of AI models, Logger, etc.
 
 ## Installation
 
