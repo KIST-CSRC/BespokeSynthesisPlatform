@@ -85,7 +85,7 @@ threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263
 tifffile==2023.2.3
 toml==0.10.2
 tornado @ file:///D:/bld/tornado_1635819745510/work
-tqdm==4.64.1
+tqdm==4.66.3
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1635260543454/work
 unicodedata2 @ file:///D:/bld/unicodedata2_1649112114189/work
 urllib3 @ file:///C:/Windows/TEMP/abs_65ynz4fdmi/croots/recipe/urllib3_1659110473919/work
